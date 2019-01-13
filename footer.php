@@ -307,9 +307,7 @@ MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
 <script src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <?php endif; ?>
 <?php if($this->options->GoogleAnalytics): ?>
-<script>
 <?php $this->options->GoogleAnalytics(); ?>
-</script>
 <?php endif; ?>
 <?php if ($this->options->pjaxSet == 'able'): ?>
 <script data-no-instant>
